@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="limen_back">#eff1dd</color>
+    <color name="lime_status">#C0CA33</color>
+    <color name="lime_action_bar">#CDDC39</color>
+    <color name="lime_fab">#eeff41</color>
+    <color name="lime_text">#f4ff81</color>
+    <color name="lime_list_item">#f7f9e5</color>
+
+    <color name="text_dark">@android:color/darker_gray</color>
+</resources>

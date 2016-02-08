@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="appTheme" parent="Theme.AppCompat.NoActionBar">
+        <!--<item name="android:windowNoTitle">true</item> -->
+        <item name="android:windowActionBar">false</item>
+
+        <item name="android:windowBackground">@color/limen_back</item>
+        <item name="colorPrimary">@color/lime_action_bar</item>
+        <item name="colorPrimaryDark">@color/lime_status</item>
+        <item name="colorAccent">@color/lime_fab</item>
+       <!-- <item name="statusBarColor">@color/lime_status</item> -->
+    </style>
+    <style name="amountText" parent="@android:style/TextAppearance">
+        <item name="android:background">@android:drawable/dialog_holo_light_frame</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/text_dark</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:textAllCaps">true</item>
+
+    </style>
+
+    <style name="enterText">
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="colorControlNormal">@android:color/darker_gray</item>
+        <item name="android:textColorHint">@android:color/darker_gray</item>
+        <item name="android:textColor">?attr/colorAccent</item>
+        <item name="android:textSize">24dp</item>
+    </style>
+
+    <style name="ListStyle">
+        <item name="android:layout_margin">6dp</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:background">@color/lime_list_item</item>
+
+    </style>
+
+    <style name="ListText" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/text_dark</item>
+        <item name="android:fontFamily">"san-serif"</item>
+    </style>
+    <style name="ListText.Date">
+        <item name="android:textColor">#d1d1d1</item>
+    </style>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    style="@style/ListStyle">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        android:id="@+id/textView2"
+        style="@style/ListText"
+        android:text="New Text"
+        android:textSize="30dp"/>
+    <TextView
+        style="@style/ListText.Date"
+        android:id="@+id/textView3"
+        android:text="New Text"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

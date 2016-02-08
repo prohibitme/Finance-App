@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Finance</string>
+    <string name="title_activity_main">My Spends</string>
+
+    <string name="main">Main</string>
+    <string name="balance">Balance:</string>
+    <string name="sort">Sort</string>
+    <string name="title_activity_enter_field">EnterField</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+</resources>
